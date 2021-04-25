@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Collapsible sidebar using Bootstrap 4</title>
+    <!-- Bootstrap CSS CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid" style="
+    overflow: hidden;
+">
+        <!-- Sidebar  -->
+        <div class="row">
+            <div class="col-2">
+                <nav id="sidebar">
+            <div class="sidebar-header">
+                <img src="Pic/logo.png" class="img-fluid duy mt-4" alt="">
+            </div>
+            <ul class="list-unstyled components">
+                
+                <li >
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="index2.html">Product</a>
+                </li>
+                <li>
+                    <a href="index3.html">About me</a>
+                </li>
+                <li>
+                    <a href="index4.html">Contact</a>
+                </li>
+            </ul>
+            <ul class="list-unstyled CTAs">
+                <div class="row " style="
+                width: 90%;;
+                text-align: center;
+                margin: auto;">
+                    <div class="col-3">
+                        <li>
+                    <a href="https://www.instagram.com/vietduyyy/" ><img class="img-fluid rounded-circle" src="Pic/icon insta.png" alt=""></a>
+                </li>
+                    </div>
+                    <div class="col-3"><li>
+                    <a href="https://www.facebook.com/nguyen.v.duy.54" class=""><img class="img-fluid rounded-circle" src="Pic/icon fb.png" alt=""></a>
+                </li></div>
+                    <div class="col-3"><li>
+                    <a href="https://www.whatsapp.com" class=""><img class="img-fluid rounded-circle" src="Pic/icon whatsapp.png" alt=""></a>
+                </li></div>
+                    <div class="col-3"> <li>
+                    <a href="https://twitter.com/Chjpdz" class=""><img class="img-fluid rounded-circle" src="Pic/icon twitter.png"></a>
+                </li></div>
+                </div>
+                
+                
+                <div class="title">
+                <li><h6>© 2019 by Duy Nguyen Viet</h6></li>
+                 
+            </div>
+               
+            </ul>
+            
+        </nav>
+            </div>
+            <div class="col-10">
+                <div id="content">
+            <nav class="">
+                <div class="container-fluid">
+                    
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                    </button>
+                    <h1>Welcome to my Portfolio!</h1>
+                   <div class="row">
+                    <h2>My name is</h2> <h2 class="chu">Duy Nguyen Viet
+                    </h2> 
+                   </div>
+                   <div class="row">
+                    <h2 class="cho">I am a</h2> <h2 class="chu2">Graphic Designer
+                    </h2> 
+                   </div>
+                 
+                </div>
+            </nav>
+            <button   class="myButton"><a href="index3.html">About me</a></button>
+           <!-- <img src="Pic/Untitled.png" class="img-fluid" alt=""> -->
+            </div>
+            </div>
+        </div>
+        
+
+        <!-- Page Content  -->
+        
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+   
+    <script>
+        $(document).ready(function(){
+    $(" .but").click(function(){
+    $(" .but").removeClass('focus');
+    $(this).toggleClass('focus'); 
+    });
+    }); </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $('#content').toggleClass('active');
+            });
+        });
+    </script>
+    <script>
+        var btn = document.getElementById("content");
+            $(document).ready(function(){
+              $('.but').on('click', function () {
+                btn.setAttribute("style", "background-image: none;");
+              });
+            });
+            </script>
+    <script>
+   
+       
+        function loadDoc2() {
+            
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("content").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "index2.html", true);
+  xhttp.send();
+}</script>
+<script>
+   
+       
+    function loadDoc1() {
+        
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+if (this.readyState == 4 && this.status == 200) {
+  document.getElementById("content").innerHTML =
+  this.responseText;
+}
+};
+xhttp.open("GET", "index3.html", true);
+xhttp.send();
+}</script>
+<script>
+   
+       
+    function loadDoc3() {
+        
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+if (this.readyState == 4 && this.status == 200) {
+  document.getElementById("content").innerHTML =
+  this.responseText;
+}
+};
+xhttp.open("GET", "index4.html", true);
+xhttp.send();
+}</script>
+</body>
+</html>

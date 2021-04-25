@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Collapsible sidebar using Bootstrap 4</title>
+    <!-- Bootstrap CSS CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Sidebar  -->
+<div class="container-fluid" style="
+overflow: hidden;
+">
+    <!-- Sidebar  -->
+    <div class="row">
+        <div class="col-2">
+            <nav id="sidebar">
+        <div class="sidebar-header">
+            <img src="Pic/logo.png" class="img-fluid duy mt-4" alt="">
+        </div>
+        <ul class="list-unstyled components">
+            
+            <li >
+                <a href="index.html">Home</a>
+            </li>
+            <li class="active">
+                <a   href="index2.html">Product</a>
+            </li>
+            <li>
+                <a href="index3.html">About me</a>
+            </li>
+            <li>
+                <a href="index4.html">Contact</a>
+            </li>
+        </ul>
+        <ul class="list-unstyled CTAs">
+            <div class="row " style="
+                width: 90%;;
+                text-align: center;
+                margin: auto;">
+                    <div class="col-3">
+                        <li>
+                    <a href="https://www.instagram.com/vietduyyy/" ><img class="img-fluid rounded-circle" src="Pic/icon insta.png" alt=""></a>
+                </li>
+                    </div>
+                    <div class="col-3"><li>
+                    <a href="https://www.facebook.com/nguyen.v.duy.54" class=""><img class="img-fluid rounded-circle" src="Pic/icon fb.png" alt=""></a>
+                </li></div>
+                    <div class="col-3"><li>
+                    <a href="https://www.whatsapp.com" class=""><img class="img-fluid rounded-circle" src="Pic/icon whatsapp.png" alt=""></a>
+                </li></div>
+                    <div class="col-3"> <li>
+                    <a href="https://twitter.com/Chjpdz" class=""><img class="img-fluid rounded-circle" src="Pic/icon twitter.png"></a>
+                </li></div>
+                </div>
+            
+            
+            <div class="title">
+            <li><h6>© 2019 by Duy Nguyen Viet</h6></li>
+             
+        </div>
+           
+        </ul>
+        
+    </nav>
+        </div>
+        <div class="col-10">
+            
+
+<!-- Page Content  -->
+<div id="content2">
+        <button type="button" id="sidebarCollapse" class="btn btn-info">
+                <i class="fas fa-align-left"></i>
+            </button>
+        <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                          <div class="box10">
+                              <img src="Links/Magazine Cover 2.png" class="img-responsive">
+                          </div>
+                </div>
+              </div>
+              <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                          <div class="box10">
+                              <img src="Links/Magazine Edithorial 2.jpg" class="img-responsive">
+                          </div>
+                </div>
+              </div>
+              <div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                          <div class="box10">
+                              <img src="Links/Magazine mockup.jpg" class="img-responsive">
+                          </div>
+                </div>
+              </div>
+    <h5 style="margin-top: 40px;margin-bottom: 0px;">Magazine Design</h5>
+    <div class="row">
+        <div class="col">
+            <div class="box">
+                    <img data-toggle="modal" data-target="#myModal" src="Links/Magazine Cover 2.png" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal1" src="Links/Magazine Edithorial 2.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal2" src="Links/Magazine mockup.jpg" class="img-responsive">
+                
+            </div>
+        </div>
+        <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                      <div class="box10">
+                          <img src="Links/Typography Images.png" class="img-responsive">
+                      </div>
+            </div>
+          </div>
+          <div id="myModal4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                      <div class="box10">
+                          <img src="Links/Music Festival Poster 1.png" class="img-responsive">
+                      </div>
+            </div>
+          </div>
+          <div id="myModal5" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                      <div class="box10">
+                          <img src="Links/mockup flyer a4.jpg" class="img-responsive">
+                      </div>
+            </div>
+          </div>
+    </div>
+    <div class="boc mt-5">
+        <div class="row">
+            <div class="col">
+                <h5>Typography Images</h5>
+                <div class="box">
+                    <img data-toggle="modal" data-target="#myModal3" src="Links/Typography Images.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col">
+                <h5>Music Festival Package</h5>
+                <div class="box">
+                    <img data-toggle="modal" data-target="#myModal4" src="Links/Music Festival Poster 1.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col">
+                <h5>Advertisement Poster</h5>
+                <div class="box">
+                    <img data-toggle="modal" data-target="#myModal5" src="Links/mockup flyer a4.jpg" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModal6" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/Logo-01.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+        <div id="myModal7" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                      <div class="box10">
+                          <img src="Links/Caroline Chisholm Education Foundation Re-Branding design.png" class="img-responsive">
+                      </div>
+            </div>
+      </div>
+        <h5>Caroline Chisholm Education </h5>
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <div class="box">
+                    <img data-toggle="modal" data-target="#myModal6" src="Links/Logo-01.jpg" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <img data-toggle="modal" data-target="#myModal7" src="Links/Caroline Chisholm Education Foundation Re-Branding design.png" class="img-responsive">
+                </div>
+            </div>
+        </div>
+        <div id="myModal8" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                      <div class="box10">
+                          <img src="Links/Brochure Dong Xuan.jpg" class="img-responsive">
+                      </div>
+            </div>
+      </div>
+    <h5 style="margin-top: 40px;margin-bottom: 0px;">Dong Xuan Market Brochure    </h5>
+    <div class="row">
+        <div class="box">
+            <img data-toggle="modal" data-target="#myModal8" src="Links/Brochure Dong Xuan.jpg" class="img-responsive">
+        </div>
+    </div>
+    <div id="myModal9" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/Mockup page 1-16.jpg" class="img-responsive">
+                  </div>
+        </div>
+  </div>
+  <div id="myModal10" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+              <div class="box10">
+                  <img src="Links/Mockup Page 2-3.png" class="img-responsive">
+              </div>
+    </div>
+</div>
+<div id="myModal11" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+              <div class="box10">
+                  <img src="Links/Mockup Page 4-5.png" class="img-responsive">
+              </div>
+    </div>
+</div>
+<div id="myModal12" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+              <div class="box10">
+                  <img src="Links/Page 6-7 mockup.jpg" class="img-responsive">
+              </div>
+    </div>
+</div>
+<div id="myModal13" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+              <div class="box10">
+                  <img src="Links/mockup page 8-9.jpg" class="img-responsive">
+              </div>
+    </div>
+</div>
+<div id="myModal14" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+              <div class="box10">
+                  <img src="Links/mockup page 10-11.jpg" class="img-responsive">
+              </div>
+    </div>
+</div>
+
+    <h5 style="margin-top: 40px;margin-bottom: 0px;">Season Theatre Brochure    </h5>
+    <div class="row">
+        <div class="col">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal9" src="Links/Mockup page 1-16.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal10" src="Links/Mockup Page 2-3.png" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal11" src="Links/Mockup Page 4-5.png" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal12" src="Links/Page 6-7 mockup.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal13" src="Links/mockup page 8-9.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal14" src="Links/mockup page 10-11.jpg" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    <div id="myModal15" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/mockup page 12-13.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+    <div id="myModal16" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/mockup page 14-15.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal15" src="Links/mockup page 12-13.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal16" src="Links/mockup page 14-15.jpg" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    <div id="myModal17" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/Logo and Slogan-01.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+    <div id="myModal18" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/Sticker-01.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+    <div id="myModal19" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/Character and Environment-02.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+    <div id="myModal20" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/2 Title Treatment-02.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+    <div id="myModal21" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/2 Title Treatment-01.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+    <div id="myModal22" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/Character and Environment-01.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+    <div id="myModal23" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/2 Package Designs-01.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+    <div id="myModal24" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/2 Package Designs-02.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+    <div id="myModal25" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/20190227_094509.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+
+    <h5 style="margin-top: 40px;margin-bottom: 0px;">Dinosaur Food Outlet  </h5>
+    <div class="row">
+        <div class="col">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal17" src="Links/Logo and Slogan-01.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal18" src="Links/Sticker-01.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal19" src="Links/Character and Environment-02.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal20" src="Links/2 Title Treatment-02.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal21" src="Links/2 Title Treatment-01.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal22" src="Links/Character and Environment-01.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal23" src="Links/2 Package Designs-01.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal24" src="Links/2 Package Designs-02.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <img data-toggle="modal" data-target="#myModal25" src="Links/20190227_094509.jpg" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    <div id="myModal26" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/Task 1 design.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+    <div id="myModal27" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/Task 1.png" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+    <h5 style="margin-top: 40px;margin-bottom: 0px;">Website Cocacola </h5>
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="box1">
+                <img data-toggle="modal" data-target="#myModal26" src="Links/Task 1 design.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="box2">
+                <img data-toggle="modal" data-target="#myModal27" src="Links/Task 1.png" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    <div id="myModal28" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/pikapu-01.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+    <div id="myModal29" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/pikapu-02.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+    <div id="myModal30" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/pikapu-03.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+    <div id="myModal31" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/pikapu-04.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+    <div id="myModal32" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="box10">
+                      <img src="Links/pikapu-04.jpg" class="img-responsive">
+                  </div>
+        </div>
+    </div>
+        <div id="myModal33" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                      <div class="box10">
+                          <img src="Links/pikapu-05.jpg" class="img-responsive">
+                      </div>
+            </div>
+        </div>
+            <div id="myModal34" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                          <div class="box10">
+                              <img src="Links/Pikapu 2.png" class="img-responsive">
+                          </div>
+                </div>
+    </div>
+    <h5 style="margin-top: 40px;margin-bottom: 0px;">Website Pikapu  </h5>
+    <div class="row">
+        <div class="col">
+            <div class="box3">
+                <img data-toggle="modal" data-target="#myModal28" src="Links/pikapu-01.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box4">
+                <img data-toggle="modal" data-target="#myModal29" src="Links/pikapu-02.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box3">
+                <img data-toggle="modal" data-target="#myModal30" src="Links/pikapu-03.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box5">
+                <img data-toggle="modal" data-target="#myModal31" src="Links/pikapu-04.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box6">
+                <img data-toggle="modal" data-target="#myModal32" src="Links/pikapu-05.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col">
+            <div class="box5">
+                 <img data-toggle="modal" data-target="#myModal34" src="Links/Pikapu 2.png" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    <!-- <img src="Pic/Untitled.png" class="img-fluid" alt=""> -->
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#sidebarCollapse').on('click', function () {
+            $('#sidebar').toggleClass('active');
+            $('#content2').toggleClass('active');
+        });
+    });
+</script>
+<!-- jQuery CDN - Slim version (=without AJAX) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<!-- Popper.JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+    integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+    integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+
