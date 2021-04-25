@@ -1,22 +1,7 @@
-<html>
-<?php
-error_reporting(0);
-ini_set('display_errors', 0); 
-
-   if(!isset($_SESSION)) 
-    { 
-        session_start(); 
-    } 
-    session_start();
-    ob_start();
+<!DOCTYPE html>
+<html lang="en">
     
-    $headtitle = 'Bán Account games ';
-    
-    include'config.php';
-    include'template/head.php';
-    include'template/navbar.php';
-    include'template/trangchu.php';
-    include'template/foot.php';
-
-?>
+<body>
+    <?php include 'index.php';?>
+</body>
 </html>
