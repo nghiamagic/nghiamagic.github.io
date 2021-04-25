@@ -1,0 +1,790 @@
+[13-Sep-2017 18:07:30 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[13-Sep-2017 18:07:30 Asia/Ho_Chi_Minh] PHP Stack trace:
+[13-Sep-2017 18:07:30 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[13-Sep-2017 18:07:30 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[13-Sep-2017 18:07:30 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[13-Sep-2017 18:35:47 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[13-Sep-2017 18:35:47 Asia/Ho_Chi_Minh] PHP Stack trace:
+[13-Sep-2017 18:35:47 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[13-Sep-2017 18:35:47 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[13-Sep-2017 18:35:47 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[14-Sep-2017 09:14:21 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[14-Sep-2017 09:14:21 Asia/Ho_Chi_Minh] PHP Stack trace:
+[14-Sep-2017 09:14:21 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[14-Sep-2017 09:14:21 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[14-Sep-2017 09:14:21 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[14-Sep-2017 14:02:12 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[14-Sep-2017 14:02:12 Asia/Ho_Chi_Minh] PHP Stack trace:
+[14-Sep-2017 14:02:12 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[14-Sep-2017 14:02:12 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[14-Sep-2017 14:02:12 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[14-Sep-2017 14:18:12 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[14-Sep-2017 14:18:12 Asia/Ho_Chi_Minh] PHP Stack trace:
+[14-Sep-2017 14:18:12 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[14-Sep-2017 14:18:12 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[14-Sep-2017 14:18:12 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[14-Sep-2017 14:18:15 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[14-Sep-2017 14:18:15 Asia/Ho_Chi_Minh] PHP Stack trace:
+[14-Sep-2017 14:18:15 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[14-Sep-2017 14:18:15 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[14-Sep-2017 14:18:15 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[14-Sep-2017 14:19:49 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[14-Sep-2017 14:19:49 Asia/Ho_Chi_Minh] PHP Stack trace:
+[14-Sep-2017 14:19:49 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[14-Sep-2017 14:19:49 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[14-Sep-2017 14:19:49 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[14-Sep-2017 14:35:11 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[14-Sep-2017 14:35:11 Asia/Ho_Chi_Minh] PHP Stack trace:
+[14-Sep-2017 14:35:11 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[14-Sep-2017 14:35:11 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[14-Sep-2017 14:35:11 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[14-Sep-2017 15:51:00 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[14-Sep-2017 15:51:00 Asia/Ho_Chi_Minh] PHP Stack trace:
+[14-Sep-2017 15:51:00 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[14-Sep-2017 15:51:00 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[14-Sep-2017 15:51:00 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[15-Sep-2017 13:54:56 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[15-Sep-2017 13:54:56 Asia/Ho_Chi_Minh] PHP Stack trace:
+[15-Sep-2017 13:54:56 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[15-Sep-2017 13:54:56 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[15-Sep-2017 13:54:56 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[15-Sep-2017 13:55:22 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[15-Sep-2017 13:55:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[15-Sep-2017 13:55:22 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[15-Sep-2017 13:55:22 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[15-Sep-2017 13:55:22 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[15-Sep-2017 13:55:26 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[15-Sep-2017 13:55:26 Asia/Ho_Chi_Minh] PHP Stack trace:
+[15-Sep-2017 13:55:26 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[15-Sep-2017 13:55:26 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[15-Sep-2017 13:55:26 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[15-Sep-2017 13:55:28 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[15-Sep-2017 13:55:28 Asia/Ho_Chi_Minh] PHP Stack trace:
+[15-Sep-2017 13:55:28 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[15-Sep-2017 13:55:28 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[15-Sep-2017 13:55:28 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[15-Sep-2017 18:13:17 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[15-Sep-2017 18:13:17 Asia/Ho_Chi_Minh] PHP Stack trace:
+[15-Sep-2017 18:13:17 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[15-Sep-2017 18:13:17 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[15-Sep-2017 18:13:17 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[15-Sep-2017 19:12:23 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[15-Sep-2017 19:12:23 Asia/Ho_Chi_Minh] PHP Stack trace:
+[15-Sep-2017 19:12:23 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[15-Sep-2017 19:12:23 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[15-Sep-2017 19:12:23 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[15-Sep-2017 20:25:41 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[15-Sep-2017 20:25:41 Asia/Ho_Chi_Minh] PHP Stack trace:
+[15-Sep-2017 20:25:41 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[15-Sep-2017 20:25:41 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[15-Sep-2017 20:25:41 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 14:14:01 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 14:14:01 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 14:14:01 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 14:14:01 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 14:14:01 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:04:49 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:04:49 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:04:49 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:04:49 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:04:49 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:05:41 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:05:41 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:05:41 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:05:41 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:05:41 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:07:39 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:07:39 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:07:39 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:07:39 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:07:39 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:10:06 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:10:06 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:10:06 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:10:06 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:10:06 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:12:46 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:12:46 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:12:46 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:12:46 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:12:46 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:13:00 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:13:00 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:13:00 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:13:00 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:13:00 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:13:28 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:13:28 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:13:28 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:13:28 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:13:28 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:13:48 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:13:48 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:13:48 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:13:48 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:13:48 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:14:07 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:14:07 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:14:07 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:14:07 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:14:07 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:16:00 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:16:00 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:16:00 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:16:00 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:16:00 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:16:04 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:16:04 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:16:04 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:16:04 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:16:04 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:16:06 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:16:06 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:16:06 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:16:06 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:16:06 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:16:08 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:16:08 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:16:08 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:16:08 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:16:08 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:16:10 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:16:10 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:16:10 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:16:10 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:16:10 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:16:12 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:16:12 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:16:12 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:16:12 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:16:12 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:16:14 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:16:14 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:16:14 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:16:14 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:16:14 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:16:16 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:16:16 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:16:16 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:16:16 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:16:16 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:30:05 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:30:05 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:30:05 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:30:05 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:30:05 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:31:26 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:31:26 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:31:26 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:31:26 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:31:26 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 15:31:45 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 15:31:45 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 15:31:45 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 15:31:45 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 15:31:45 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:00:16 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:00:16 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:00:16 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:00:16 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:00:16 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:00:29 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:00:29 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:00:29 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:00:29 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:00:29 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:03:16 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:03:16 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:03:16 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:03:16 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:03:16 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:04:17 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:04:17 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:04:17 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:04:17 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:04:17 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:04:38 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:04:38 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:04:38 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:04:38 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:04:38 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:04:59 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:04:59 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:04:59 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:04:59 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:04:59 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:05:25 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:05:25 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:05:25 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:05:25 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:05:25 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:05:53 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:05:53 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:05:53 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:05:53 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:05:53 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:06:24 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:06:24 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:06:24 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:06:24 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:06:24 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:07:06 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:07:06 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:07:06 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:07:06 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:07:06 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:17:17 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:17:17 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:17:17 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:17:17 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:17:17 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:18:32 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:18:32 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:18:32 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:18:32 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:18:32 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:27:59 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:27:59 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:27:59 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:27:59 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:27:59 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:29:06 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:29:06 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:29:06 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:29:06 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:29:06 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:29:11 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:29:11 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:29:11 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:29:11 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:29:11 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:29:26 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:29:26 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:29:26 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:29:26 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:29:26 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:29:59 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:29:59 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:29:59 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:29:59 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:29:59 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:31:52 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:31:52 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:31:52 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:31:52 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:31:52 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:31:56 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:31:56 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:31:56 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:31:56 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:31:56 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:32:04 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:32:04 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:32:04 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:32:04 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:32:04 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:32:27 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:32:27 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:32:27 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:32:27 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:32:27 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:32:40 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:32:40 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:32:40 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:32:40 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:32:40 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:32:45 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:32:45 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:32:45 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:32:45 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:32:45 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 16:54:25 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 16:54:25 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 16:54:25 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 16:54:25 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 16:54:25 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 17:17:46 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 17:17:46 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 17:17:46 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 17:17:46 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 17:17:46 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 18:29:45 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 18:29:45 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 18:29:45 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 18:29:45 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 18:29:45 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 18:34:25 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 18:34:25 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 18:34:25 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 18:34:25 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 18:34:25 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 19:50:49 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 19:50:49 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 19:50:49 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 19:50:49 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 19:50:49 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 19:52:34 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 19:52:34 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 19:52:34 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 19:52:34 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 19:52:34 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 20:45:27 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 20:45:27 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 20:45:27 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 20:45:27 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 20:45:27 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 21:08:17 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 21:08:17 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 21:08:17 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 21:08:17 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 21:08:17 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 21:08:29 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 21:08:29 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 21:08:29 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 21:08:29 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 21:08:29 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 21:14:53 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 21:14:53 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 21:14:53 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 21:14:53 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 21:14:53 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 21:14:56 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 21:14:56 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 21:14:56 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[16-Sep-2017 21:14:56 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[16-Sep-2017 21:14:56 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 00:45:16 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 00:45:16 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 00:45:16 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 00:45:16 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 00:45:16 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 00:46:12 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 00:46:12 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 00:46:12 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 00:46:12 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 00:46:12 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 07:55:23 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 07:55:23 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 07:55:23 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 07:55:23 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 07:55:23 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 07:56:01 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 07:56:01 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 07:56:01 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 07:56:01 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 07:56:01 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 07:57:59 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 07:57:59 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 07:57:59 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 07:57:59 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 07:57:59 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 07:58:16 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 07:58:16 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 07:58:16 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 07:58:16 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 07:58:16 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 08:05:23 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 08:05:23 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 08:05:23 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 08:05:23 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 08:05:23 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 08:05:29 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 08:05:29 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 08:05:29 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 08:05:29 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 08:05:29 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 08:05:50 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 08:05:50 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 08:05:50 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 08:05:50 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 08:05:50 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 08:05:59 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 08:05:59 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 08:05:59 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 08:05:59 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 08:05:59 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 09:36:29 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 09:36:29 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 09:36:29 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 09:36:29 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 09:36:29 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 09:37:10 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 09:37:10 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 09:37:10 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 09:37:10 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 09:37:10 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 09:38:51 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 09:38:51 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 09:38:51 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 09:38:51 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 09:38:51 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 09:38:58 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 09:38:58 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 09:38:58 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 09:38:58 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 09:38:58 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 09:43:26 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 09:43:26 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 09:43:26 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 09:43:26 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 09:43:26 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 10:16:06 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 10:16:06 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 10:16:06 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 10:16:06 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 10:16:06 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 14:06:44 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 14:06:44 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 14:06:44 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 14:06:44 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 14:06:44 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 15:02:58 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 15:02:58 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 15:02:58 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 15:02:58 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 15:02:58 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 15:06:10 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 15:06:10 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 15:06:10 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 15:06:10 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 15:06:10 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 15:15:30 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 15:15:30 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 15:15:30 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 15:15:30 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 15:15:30 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 15:17:32 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 15:17:32 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 15:17:32 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 15:17:32 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 15:17:32 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 15:29:12 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 15:29:12 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 15:29:12 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 15:29:12 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 15:29:12 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 16:46:46 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 16:46:46 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 16:46:46 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 16:46:46 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 16:46:46 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 16:47:32 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 16:47:32 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 16:47:32 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 16:47:32 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 16:47:32 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 16:57:03 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 16:57:03 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 16:57:03 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 16:57:03 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 16:57:03 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 19:15:04 Asia/Ho_Chi_Minh] PHP Notice:  A session had already been started - ignoring session_start() in /home/shopacc2/thueacc.net/config.php on line 2
+[17-Sep-2017 19:15:04 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 19:15:04 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/cron.php:0
+[17-Sep-2017 19:15:04 Asia/Ho_Chi_Minh] PHP   2. require() /home/shopacc2/thueacc.net/getacc/cron.php:3
+[17-Sep-2017 19:15:04 Asia/Ho_Chi_Minh] PHP   3. session_start() /home/shopacc2/thueacc.net/config.php:2
+[17-Sep-2017 19:15:04 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 19:15:04 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 19:15:04 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/cron.php:0
+[17-Sep-2017 19:15:04 Asia/Ho_Chi_Minh] PHP   2. require() /home/shopacc2/thueacc.net/getacc/cron.php:3
+[17-Sep-2017 19:15:04 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 19:15:37 Asia/Ho_Chi_Minh] PHP Notice:  A session had already been started - ignoring session_start() in /home/shopacc2/thueacc.net/config.php on line 2
+[17-Sep-2017 19:15:37 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 19:15:37 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/cron.php:0
+[17-Sep-2017 19:15:37 Asia/Ho_Chi_Minh] PHP   2. require() /home/shopacc2/thueacc.net/getacc/cron.php:3
+[17-Sep-2017 19:15:37 Asia/Ho_Chi_Minh] PHP   3. session_start() /home/shopacc2/thueacc.net/config.php:2
+[17-Sep-2017 19:15:37 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 19:15:37 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 19:15:37 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/cron.php:0
+[17-Sep-2017 19:15:37 Asia/Ho_Chi_Minh] PHP   2. require() /home/shopacc2/thueacc.net/getacc/cron.php:3
+[17-Sep-2017 19:15:37 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 20:26:55 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 20:26:55 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 20:26:55 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 20:26:55 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 20:26:55 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 20:27:42 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 20:27:42 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 20:27:42 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 20:27:42 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 20:27:42 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 20:28:03 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 20:28:03 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 20:28:03 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 20:28:03 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 20:28:03 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 20:33:07 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 20:33:07 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 20:33:07 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 20:33:07 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 20:33:07 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 20:34:31 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 20:34:31 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 20:34:31 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 20:34:31 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 20:34:31 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 22:19:04 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 22:19:04 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 22:19:04 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 22:19:04 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 22:19:04 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 22:20:32 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 22:20:32 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 22:20:32 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 22:20:32 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 22:20:32 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[17-Sep-2017 22:47:56 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[17-Sep-2017 22:47:56 Asia/Ho_Chi_Minh] PHP Stack trace:
+[17-Sep-2017 22:47:56 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[17-Sep-2017 22:47:56 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[17-Sep-2017 22:47:56 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[18-Sep-2017 08:41:30 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[18-Sep-2017 08:41:30 Asia/Ho_Chi_Minh] PHP Stack trace:
+[18-Sep-2017 08:41:30 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[18-Sep-2017 08:41:30 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[18-Sep-2017 08:41:30 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[18-Sep-2017 08:46:16 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[18-Sep-2017 08:46:16 Asia/Ho_Chi_Minh] PHP Stack trace:
+[18-Sep-2017 08:46:16 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[18-Sep-2017 08:46:16 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[18-Sep-2017 08:46:16 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[18-Sep-2017 11:45:58 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[18-Sep-2017 11:45:58 Asia/Ho_Chi_Minh] PHP Stack trace:
+[18-Sep-2017 11:45:58 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[18-Sep-2017 11:45:58 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[18-Sep-2017 11:45:58 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[18-Sep-2017 13:31:41 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[18-Sep-2017 13:31:41 Asia/Ho_Chi_Minh] PHP Stack trace:
+[18-Sep-2017 13:31:41 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[18-Sep-2017 13:31:41 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[18-Sep-2017 13:31:41 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[18-Sep-2017 16:31:12 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[18-Sep-2017 16:31:12 Asia/Ho_Chi_Minh] PHP Stack trace:
+[18-Sep-2017 16:31:12 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[18-Sep-2017 16:31:12 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[18-Sep-2017 16:31:12 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[18-Sep-2017 19:34:39 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[18-Sep-2017 19:34:39 Asia/Ho_Chi_Minh] PHP Stack trace:
+[18-Sep-2017 19:34:39 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[18-Sep-2017 19:34:39 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[18-Sep-2017 19:34:39 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[18-Sep-2017 19:34:43 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[18-Sep-2017 19:34:43 Asia/Ho_Chi_Minh] PHP Stack trace:
+[18-Sep-2017 19:34:43 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[18-Sep-2017 19:34:43 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[18-Sep-2017 19:34:43 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[18-Sep-2017 19:34:46 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[18-Sep-2017 19:34:46 Asia/Ho_Chi_Minh] PHP Stack trace:
+[18-Sep-2017 19:34:46 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[18-Sep-2017 19:34:46 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[18-Sep-2017 19:34:46 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[18-Sep-2017 21:55:54 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[18-Sep-2017 21:55:54 Asia/Ho_Chi_Minh] PHP Stack trace:
+[18-Sep-2017 21:55:54 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[18-Sep-2017 21:55:54 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[18-Sep-2017 21:55:54 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 06:33:13 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 06:33:13 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 06:33:13 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 06:33:13 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 06:33:13 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 07:33:20 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 07:33:20 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 07:33:20 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 07:33:20 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 07:33:20 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 12:39:08 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 12:39:08 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 12:39:08 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 12:39:08 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 12:39:08 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 12:39:49 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 12:39:49 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 12:39:49 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 12:39:49 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 12:39:49 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 12:40:07 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 12:40:07 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 12:40:07 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 12:40:07 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 12:40:07 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 12:40:11 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 12:40:11 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 12:40:11 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 12:40:11 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 12:40:11 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 14:36:06 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 14:36:06 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 14:36:06 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 14:36:06 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 14:36:06 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 14:37:28 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 14:37:28 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 14:37:28 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 14:37:28 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 14:37:28 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 14:39:22 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 14:39:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 14:39:22 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 14:39:22 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 14:39:22 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 14:39:34 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 14:39:34 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 14:39:34 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 14:39:34 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 14:39:34 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 14:39:37 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 14:39:37 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 14:39:37 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 14:39:37 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 14:39:37 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 14:39:39 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 14:39:39 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 14:39:39 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 14:39:39 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 14:39:39 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 14:39:41 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 14:39:41 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 14:39:41 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 14:39:41 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 14:39:41 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 14:39:43 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 14:39:43 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 14:39:43 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 14:39:43 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 14:39:43 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 14:39:46 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 14:39:46 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 14:39:46 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 14:39:46 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 14:39:46 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 14:39:48 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 14:39:48 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 14:39:48 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 14:39:48 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 14:39:48 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 14:39:50 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 14:39:50 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 14:39:50 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 14:39:50 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 14:39:50 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 14:42:53 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 14:42:53 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 14:42:53 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 14:42:53 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 14:42:53 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 14:48:00 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 14:48:00 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 14:48:00 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 14:48:00 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 14:48:00 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 14:48:03 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 14:48:03 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 14:48:03 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 14:48:03 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 14:48:03 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 16:25:29 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 16:25:29 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 16:25:29 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 16:25:29 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 16:25:29 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 21:08:16 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 21:08:16 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 21:08:16 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 21:08:16 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 21:08:16 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 21:08:51 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 21:08:51 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 21:08:51 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 21:08:51 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 21:08:51 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 21:09:21 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 21:09:21 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 21:09:21 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 21:09:21 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 21:09:21 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 21:09:27 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 21:09:27 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 21:09:27 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 21:09:27 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 21:09:27 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 21:09:43 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 21:09:43 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 21:09:43 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 21:09:43 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 21:09:43 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 21:10:02 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 21:10:02 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 21:10:02 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 21:10:02 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 21:10:02 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 21:16:11 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 21:16:11 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 21:16:11 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 21:16:11 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 21:16:11 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 21:16:36 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 21:16:36 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 21:16:36 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 21:16:36 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 21:16:36 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 21:17:07 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 21:17:07 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 21:17:07 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 21:17:07 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 21:17:07 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 21:20:07 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 21:20:07 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 21:20:07 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 21:20:07 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 21:20:07 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[19-Sep-2017 21:22:33 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[19-Sep-2017 21:22:33 Asia/Ho_Chi_Minh] PHP Stack trace:
+[19-Sep-2017 21:22:33 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[19-Sep-2017 21:22:33 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[19-Sep-2017 21:22:33 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[20-Sep-2017 07:31:24 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[20-Sep-2017 07:31:24 Asia/Ho_Chi_Minh] PHP Stack trace:
+[20-Sep-2017 07:31:24 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[20-Sep-2017 07:31:24 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[20-Sep-2017 07:31:24 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[20-Sep-2017 14:44:55 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[20-Sep-2017 14:44:55 Asia/Ho_Chi_Minh] PHP Stack trace:
+[20-Sep-2017 14:44:55 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[20-Sep-2017 14:44:55 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[20-Sep-2017 14:44:55 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[20-Sep-2017 14:48:50 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[20-Sep-2017 14:48:50 Asia/Ho_Chi_Minh] PHP Stack trace:
+[20-Sep-2017 14:48:50 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[20-Sep-2017 14:48:50 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[20-Sep-2017 14:48:50 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[20-Sep-2017 14:51:57 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[20-Sep-2017 14:51:57 Asia/Ho_Chi_Minh] PHP Stack trace:
+[20-Sep-2017 14:51:57 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[20-Sep-2017 14:51:57 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[20-Sep-2017 14:51:57 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[20-Sep-2017 15:38:32 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[20-Sep-2017 15:38:32 Asia/Ho_Chi_Minh] PHP Stack trace:
+[20-Sep-2017 15:38:32 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[20-Sep-2017 15:38:32 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[20-Sep-2017 15:38:32 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[20-Sep-2017 16:44:31 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[20-Sep-2017 16:44:31 Asia/Ho_Chi_Minh] PHP Stack trace:
+[20-Sep-2017 16:44:31 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[20-Sep-2017 16:44:31 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[20-Sep-2017 16:44:31 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[20-Sep-2017 16:44:56 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[20-Sep-2017 16:44:56 Asia/Ho_Chi_Minh] PHP Stack trace:
+[20-Sep-2017 16:44:56 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[20-Sep-2017 16:44:56 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[20-Sep-2017 16:44:56 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[20-Sep-2017 16:46:51 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[20-Sep-2017 16:46:51 Asia/Ho_Chi_Minh] PHP Stack trace:
+[20-Sep-2017 16:46:51 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[20-Sep-2017 16:46:51 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[20-Sep-2017 16:46:51 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[20-Sep-2017 16:54:51 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[20-Sep-2017 16:54:51 Asia/Ho_Chi_Minh] PHP Stack trace:
+[20-Sep-2017 16:54:51 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/getacc/napthe.php:0
+[20-Sep-2017 16:54:51 Asia/Ho_Chi_Minh] PHP   2. require_once() /home/shopacc2/thueacc.net/getacc/napthe.php:3
+[20-Sep-2017 16:54:51 Asia/Ho_Chi_Minh] PHP   3. mysql_connect() /home/shopacc2/thueacc.net/config.php:7

@@ -1,0 +1,69 @@
+.pu-number{
+    background:rgba(0, 0, 0, 0.5);
+    position:absolute;
+    top:5px;
+    left:10px;
+    right:10px;
+    padding:5px;
+    text-align:center;
+    color:#d9edf7;
+    font-weight:bold;
+}
+
+a.a-itbtns{
+    display: block;
+    text-align: center;
+    line-height: 44px;
+    text-transform: uppercase;
+    position: relative;
+    height: 44px;
+    border: none;
+    outline: 0;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    background: url("../images/btn1-l.png") no-repeat left top;
+}
+a.a-itbtns:before{
+    content: "";
+    display: inline-block;
+    height: 44px;
+    width: 10px;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    background: url("../images/btn1-r.png") no-repeat right top;
+}
+
+#alert-preorder .pu-ln5 .time-alert{
+    font-weight:bold;
+    color:#e69800;
+}
+
+.pu-bncol1 iframe {
+    max-width: 723px;
+    max-height: 438px;
+    width: 100%;
+}
+
+.pu-itbtns.btn-isorder a{
+    background: url("../images/btn3-l.png") no-repeat left top;
+}
+
+.pu-itbtns.btn-isorder a:before{
+    background: url("../images/btn3-r.png") no-repeat right top;
+}
+
+.pu-itbtns.btn-isorder button{
+    background: url("../images/btn3-l.png") no-repeat left top;
+}
+
+.pu-itbtns.btn-isorder button:before{
+    background: url("../images/btn3-r.png") no-repeat right top;
+}
+.pu-ln4 a{
+    color:#e69800;
+    text-decoration:underline;
+    font-weight:bold;
+}

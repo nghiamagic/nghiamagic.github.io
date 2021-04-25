@@ -1,0 +1,8 @@
+[16-Sep-2017 11:11:29 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 11:11:29 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 11:11:29 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/config.php:0
+[16-Sep-2017 11:11:29 Asia/Ho_Chi_Minh] PHP   2. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
+[16-Sep-2017 11:11:32 Asia/Ho_Chi_Minh] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/shopacc2/thueacc.net/config.php on line 7
+[16-Sep-2017 11:11:32 Asia/Ho_Chi_Minh] PHP Stack trace:
+[16-Sep-2017 11:11:32 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/shopacc2/thueacc.net/config.php:0
+[16-Sep-2017 11:11:32 Asia/Ho_Chi_Minh] PHP   2. mysql_connect() /home/shopacc2/thueacc.net/config.php:7
