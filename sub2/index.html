@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <script src="./main.js"></script>
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+      <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+        <header class="sticky-top">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><div class="box">
+                        <ul class="minbox">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ol class="maxbox">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ol>
+                    </div></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+                </header>
+                
+    <div class="container-fluid son">
+        <div class="header">
+            <!-- <div class="row-trt">
+                <ul><li><a href="https://www.google.com"><img src="data:image/png;base64,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"></a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Out Team</a></li>
+                    <li><a href="#">Out PortFolio</a></li>
+                    <li><a href="#">Out Pricing</a></li>
+                    <li><a href="#">Contact</a></li></ul>
+               
+            </div> -->
+               <!--top header-->
+        
+
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/3d.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/4d.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/5d.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+    <div class="container-fluid lam">
+            <div class="chu">
+               <b>ABOUT US</b>
+            </div>
+            <div class="intro">
+                Eum delectus consequatur, ipsa inventore corporis aut, possimus, vel nam non est quis autem repudiandae minus obcaecati officia esse! Dicta, nisi voluptates.
+            </div>
+            <div class="container top">
+            <div class="box-1">
+                <div class="anh">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEpSURBVGhD7dkxSgNRFIXhkYCNhQQ0hYU7cAN2guAGTGPtAgQbe8EluAMLLdxAsLIRLC1cQopAtAjYqf9VHgyZ+0RxnNyH54cPokngHTEJZCql1I9aQr8AK8g2xBPeCnGHARpN8IppAWawMadoZHc8f94M3wHsvOcfP82lIQtIQ6KlIdHSkGhpSLQ0JFoaEi0NiZaGREtDovV/htjXLLsFOMOXQ0qjIYswxggPtd8lRQ25gJVe4HVFDblB/QVe5w6xL7DnHxidO+Qe3oMjO0SjTdjCqwJc4gg9qFyrsKte37WDkG3B+z/OuUWINrCH9Bc+hnfgnEek5+5jG8voNPtweoF3wN+wcevoLLtw6h2kDe4Fzr9oDd4B2nKNTrIh3nt7W06glGq1qnoHU9eHR0fT7SMAAAAASUVORK5CYII=">
+                </div>
+                <div class="title1">
+                    <b>WEB DESIGN</b>
+                </div>
+                <h6>Quisquam tenetur unde vitae minus illo expedita quasi incidunt dolore dolor ea tempore ratione omnis quo, nesciunt, officia iste commodi hic fugiat</h6>
+            </div>
+           
+                <div class="box-1">
+                        <div class="anh">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEtSURBVGhD7dg/SgNBGIbxAREUgulsrBQLEaxS2Vp5Da28gp1KUK8RwT83sLZJlcob2HgKQZ9RAmEYdr98uzir+77wg4SQMM+SQJKgadq/2xo2f252e/GgezjGGW7wgCne8Yl7FF960GukB63zKyHzgx5+3wthC8setE4rIekVvcUj0oO+Iu4Ai4dogykkd9AnLHtFi4ZsIPdEj6IhQ+Se6KEQA4V4KMRAIR4KMVCIh0IM+hMywKwl8Rtz3C5yjzcxRj+2glFL9hG3jtzjTWyjcvqwZyjEQCEeCjFQiIdCDBTioRCD/oTEf+IneMEbPpB7IYuiIelWsYMjnOIS1tBOhdStKvQZcX8ixLL4w2oeeoU7NH3rFgmpmvet27mQui2GnuACMfQcmqb1byF8AaSgD4VuZjVqAAAAAElFTkSuQmCC">                        </div>
+                        <div class="title">
+                            <b>DIGITAL MARKETING</b>
+                        </div>
+                        <h6>Quisquam tenetur unde vitae minus illo expedita quasi incidunt dolore dolor ea tempore ratione omnis quo, nesciunt, officia iste commodi hic fugiat</h6>
+                    </div>
+                   
+                    <div class="box-1">
+                            <div class="anh">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQfSURBVGhD7dlpyBVVHMfxp4zSiKJC1BYoCtIXiggiBRrUK2kPoyIRg0KEBMEFgyiUVIooMIxooYhoI9vfVISCBuVWRFFUYmEbQRAttC/frzTx9zxn7p07d547T+YPPi+ee8+dO3fmzDn/c56hQ/mf5Ejcj6+xExtwNU7DfyZj8Cz+KvElnsEynINxGJW5B7kfUOZXvIG7cAVORetZhdzJ9uozPIWlmIWjMLBcgz+RO7F+/YzXcQcuw0kYkVyMX5A7iZHyKR5AYwOIt/5H5L5sEHah75wJh9j04N/gMTwNR6n0/SbZE/rKeHyE9MD7cDJizsJ1eAR2ifQz/XCOqp3j8BbSg9rFpqNb7NcLYB//EOlxqnoNTr614gc9QO7Am1Ank3AlNuJdVBn93oEXtFYOw6PIHbiwA7fhAhyLOpmA3B0v2H1PQe2sR+7AZX6Ho8qduAQnoko8ydwgIrvvTNTOCuQO3Is/YJe4G5YjXvk0R8M2uc97YZyzamckZ+33cS8W/+NN5NrJ9800vIKXcIYvVMl5GPSsnWO3LmJ3LV73x3TNVHyLeMA2PA+XB8Y7EN97FR3jrP0F4ofaYInvc1PkKsT316I0ZbP2oHkOnkvMDYht5iMbf71XITZug/WavSKNFUFstxLDYj+0P8aGbXBwcZDJZTZi22EPu7P2w4iN2uAw73CfS663DHvYb0Fs0BaXy7l4oV0axLZOkOfj30yGmwCxURushstyE9L2rukPyJNIGw1ap5L8cqSVhftmB+QEtH03OpXkrm/SpfQWDPvR6QSjD+AVcghM32tap5LcotL3Y/uPkc4t+/MgYsM1KOJwfDZ8zXVG04VjpxWle1npCGW5ZNmUjVe/aOj+0TEoy0QsxBPo9251K8nTBZztL0JpvkPR2NtWNUdgDtZhN3q9W0VJnktux9L1UMf8hKLx275QM+7+uVPiFlC3ijmW5Gm8Sy7AYnsn6q7Zg+IDX/lCA/FunYvbka727JZObrnY/79HbO9WaaWdkhcRPzgFTcdRyWLvUpT9CEeiTxDPxT2w7AiVy7WIH7YMGHS84tsQz+MHlI5QuViIfY54ENfQtfeMauQhxO934Ki1yeCORjyQHARehguZ0zFSWY70u29E7dyK9IDRe/Dhdcj1YW4iF8L5IX6P80fZc1Q5Xp3fEA+c42T4OFw3WKvVSW5jw5m8sf8pWjJ4VarO3F7RrXASq/pw5vYErKncA2481ll2I/dx7VbxSzvZCzej52Is0jhCbUb8jDXXDAwkPvBL4ABgTRZPpIwn+AIWoahw70Ns4wg1D63EwtLFjiu6Xv4jlftfyM0YFTkc7o6vhluZvRSPncqV1mPxeD2eQ7qyi7Yj7iCO6viw+9D78Mc6yhqqr3/UtB2HZ5+t4/f/dSgHbYaG/gYzvSt2VlTHZQAAAABJRU5ErkJggg==">                            </div>
+                            <div class="title">
+                                <b>WEB DEVELOPMENT</b>
+                            </div>
+                            <h6>Quisquam tenetur unde vitae minus illo expedita quasi incidunt dolore dolor ea tempore ratione omnis quo, nesciunt, officia iste commodi hic fugiat</h6>
+                        </div>
+                    </div>
+    </div>
+    <div class="container-fluid tung">
+            <div class="chu">
+                    <b>SERVICES</b>
+                 </div>
+                 <div class="intro">
+                        Eum delectus consequatur, ipsa inventore corporis aut, possimus, vel nam non est quis autem repudiandae minus obcaecati officia esse! Dicta, nisi voluptates.
+                    </div>
+                    <div class="container top">
+                    <div class="box-1">
+                            <div class="img">
+                                <img src="https://picsum.photos/300/300/?random" alt="">
+                            </div>
+                    </div>
+                    <div class="box-1">
+                            <div class="img">
+                                <img src="https://picsum.photos/300/300/?random" alt="">
+                            </div>
+                    </div>
+                    <div class="box-1">
+                            <div class="img">
+                                <img src="https://picsum.photos/300/300/?random" alt="">
+                            </div>
+                    </div>
+                    
+                </div>
+    </div>
+    <div class="container-fluid lut">
+            <div class="chu">
+                    <b>OUR PORFOLIO</b>
+                 </div>
+                 <div class="intro">
+                        Eum delectus consequatur, ipsa inventore corporis aut, possimus, vel nam non est quis autem repudiandae minus obcaecati officia esse! Dicta, nisi voluptates.
+                    </div>
+                    <div class="nut">
+                    <button class="btn btn-dark">ALL WORK</button>
+                    <button class="btn btn-dark">WEB DESING</button>
+                    <button class="btn btn-dark">ULDESING</button>
+                    <button class="btn btn-dark">BRANDING</button>
+                    <button class="btn btn-dark">LOGO DESIGN</button>
+                    <button class="btn btn-dark">ILLUSTRATION</button>
+                </div>
+                <div class="container top">
+                        <div class="img1">
+                            <img src="https://picsum.photos/400/400/?random" alt="">
+                        </div>
+                
+                        <div class="img1">
+                            <img src="https://picsum.photos/400/400/?random" alt="">
+                        </div>
+                
+                        <div class="img1">
+                            <img src="https://picsum.photos/400/400/?random" alt="">
+                        </div>
+                
+                        <div class="img1">
+                            <img src="https://picsum.photos/400/400/?random" alt="">
+                        </div>
+                
+                        <div class="img1">
+                            <img src="https://picsum.photos/400/400/?random" alt="">
+                        </div>
+                
+                        <div class="img1">
+                            <img src="https://picsum.photos/400/400/?random" alt="">
+                        </div>
+                </div>
+    </div>
+    <div class="container-fluid can">
+        <div class="chu">
+            <b>OUR PRICING</b>
+         </div>
+         <div class="intro">
+                Eum delectus consequatur, ipsa inventore corporis aut, possimus, vel nam non est quis autem repudiandae minus obcaecati officia esse! Dicta, nisi voluptates.
+            </div>
+            <div class="container tov">
+                <!-- <div class="center"> -->
+                <div class="box-2">
+                    <div class="tron">
+                        <h3>50/VND Basic</h3>
+                        <div class="title2">
+                        <div class="chu1">1 GB BAND WIDTH<hr></div>
+                        <div class="chu1">256 MB MEMOMRY<hr></div>
+                        <div class="chu1">5 DATA BASES<hr></div>
+                        <div class="chu1">FREE DOMAN<hr></div>
+                        <button class="btn btn-default">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-2">
+                        <div class="tron">
+                            <h3>50/VND Basic</h3>
+                            <div class="title2">
+                            <div class="chu1">1 GB BAND WIDTH<hr></div>
+                            <div class="chu1">256 MB MEMOMRY<hr></div>
+                            <div class="chu1">5 DATA BASES<hr></div>
+                            <div class="chu1">FREE DOMAN<hr></div>
+                            <button class="btn btn-default">ĐĂNG KÝ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-2">
+                            <div class="tron">
+                                <h3>50/VND Basic</h3>
+                                <div class="title2">
+                                <div class="chu1">1 GB BAND WIDTH<hr></div>
+                                <div class="chu1">256 MB MEMOMRY<hr></div>
+                                <div class="chu1">5 DATA BASES<hr></div>
+                                <div class="chu1">FREE DOMAN<hr></div>
+                                <button class="btn btn-default">ĐĂNG KÝ</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-2">
+                                <div class="tron">
+                                    <h3>50/VND Basic</h3>
+                                    <div class="title2">
+                                    <div class="chu1">1 GB BAND WIDTH<hr></div>
+                                    <div class="chu1">256 MB MEMOMRY<hr></div>
+                                    <div class="chu1">5 DATA BASES<hr></div>
+                                    <div class="chu1">FREE DOMAN<hr></div>
+                                    <button class="btn btn-default">ĐĂNG KÝ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- </div> -->
+            </div>
+    </div>
+    <div class="container-fluid chai">
+        <div class="container tov">
+            <div class="vuong">
+                <h1>200</h1>      
+                <h2>Lorem ipsum dolor</h2>
+            </div>
+            <div class="vuong">
+                <h1>200</h1>      
+                <h2>Lorem ipsum dolor</h2>
+            </div>
+            <div class="vuong">
+                <h1>200</h1>      
+                <h2>Lorem ipsum dolor</h2>
+            </div>
+            <div class="vuong">
+                <h1>200</h1>      
+                <h2>Lorem ipsum dolor</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid lo">
+        <div class="chu">
+            <b>CONTACT US</b>
+         </div>
+         <div class="intro">
+                Eum delectus consequatur, ipsa inventore corporis aut, possimus, vel nam non est quis autem repudiandae minus obcaecati officia esse! Dicta, nisi voluptates.
+            </div>
+            <div class="container tov">
+                <div class="box-3">
+                    <div class="anh">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKCSURBVGhD5dlLqE1RHMfx4y2FFEkmHikJKQMlZeSVRx4TA48BJh4DI4pEJqKMZKAM5FlCRErMJAYkJcVIyQRRXpHX9zc4ddr91jl739Y5+3/zq8/kdu7Zv733unevtXajQqbgME5gsX7QH7MJX/G3xWkMQr/IABzEH7SeRJPuTvgMxwW4E2i1DmGjIXMdrnjRR0xEyGjIuNIp1xAuK+HKdqLfC5OheA1XtJPnGIwQ2QZXsqytCJFHcAXLeozaMxmuXFXjUGs2wBWrahZqzXG4YlXV/ky5BFesigeoPXfgypX1CTNRe+7BFSzjPeYjRC7DlezkJaYhTE7CFW3nLEYiVHbAlU25Aq1XwmUuXOGUOQgZTfg+w5V2Qt6NZs7DlXbGI2yWw5V21iNshuAtXPEiPXdCZw9ccUd3MGxGQRsKrniRHobDEDYH4Io7+mzYjEDZtfsvLEHYrIUr7nyAVphhcxuuuPMEupMhMwGaorvizi1oSylk1sCVTtFksi+79GOxG2egnU4dN/tFOQVXOuUcqpzMCrxD8XteYRGyRTvzD1E8UDtXUWatsgv6z+e+Q37jCLLtYmp35A3cwVJeYDpSqfK80pRoDLJkHr7DHSjlC/ZhNJrR2D8G9/l2dGEmIUtWo91QSNEJ3cUNuL+HsvSgnoos2YLU67he0BDPdmeqzJK74T6yZS/cQXplIbJlO+oaZjuRNRvxA+5g3bQA2aMt07LL5By0Odi16KFZdQbQFxfR9cmpphL70a2hdhQ93VPTm6ucd+cnNC+rJbpyq/AMrlxZesk6G7VnIJZB0/tvcGWdp9iMMO/vW6PtpqU4hJvQ8NO2kujVnbZttcCagf8tjcY/2tImBsXPeGQAAAAASUVORK5CYII=">
+                    </div>
+                    <div class="title1">
+                        <b>CALL US</b>
+                    </div>
+                    <h6>09474937394749479345</h6>
+                </div>
+                <div class="box-3">
+                        <div class="anh">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKxSURBVGhD7dlLqE1RHMfxi7xKyDNMGCmPlImSmAgppchAJEkZYKK8BhRSClFSYiIxkSiRRwYYGVLKQAh5hDzK+/n9qVu31e86a5/7X+ecW371GdxTe///e9/9WGvttv/xGY01OIU7eIvf+IrnuIH9mI/eaLlMwBn8gBrP8RJb0R9NzzAcxXe4ZnM8xQo0LRNxH665ehxDHzQ0c/EBrqGu0D00CA3JZJQ4iHYX0QtFMxwP4BqItBdFcxyucAmzUSRT8BOuaAl30RPhuQBXsKTFCM04/IIrVst7fEl+y3UJodkAV6gzj7AKQ9AeXZqH8A1uG0cjhcEIy3m4Qs5lDERnmYl3cNs6CxAWnWFXJKU3fc4LbRHc9s4WhCX3/liK3NyE20fqCEKiM+wKpDRUH4DcrIfbT+okQtIPrkDqMapkHtx+UnoJhyXn8fkCVbIQbj+pgwjLM7giHek+GoPc7IDbT2obwnINrkhqO3LSF7lPwtC3u/69rkhKw3sN82tlD9z2zniEZTlcEUeLDDPgohngbuQ+zt8gdG6ia98V6owaPYtlmA4NyTej6tT4NMKjYbUrVtJqhGcXXLFStDIzAuGZBFewlCsolttwRUvQ/VUsWg51RaO9goZGxaJBYZW5RL10PxbPPrjiUTSu02J48YzCJ7gmIhxGw6K5t2uiqzSnGYuGZSS0OuKa6Qpdtg3PJrhm6vUaoSsmudHj8SFcU/VYh6ZlCVxTVd1DUz/F9cB1uOaq0DfFpkcTn89wDeY4gZbJRrgma9EH0aFomWgWdwuu2X8JX22PiD6OVll1LzL7i8pauKZTT9Bxpb7loqfYObjm2+lTwSy0fHSmtXzqDkJ2ottkGjQATA/iKop/eo7OSnQ8CK0s6vN2t8wB6CA+Yqp+6K7RZaT14Dl///qfWmlr+wPByaEqqEhrtgAAAABJRU5ErkJggg==">                        </div>
+                        <div class="title">
+                            <b>OFFICE LOCATION</b>
+                        </div>
+                        <h6>Quisquam tenetur unde vitae minus</h6>
+                    </div>
+                    <div class="box-3">
+                            <div class="anh">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJKSURBVGhD7Zg9jAxhHIf3fISgoCAK0fgqhNMgV91FLTpBokNCoiD05JQnRKNwd7nOiehcrhQKBVG4Cw0qNBQnIoL4fB6597Jrud3ZnRkzk/dJnuzM7sy7729n5v+f2VokEomUjlUVcBnWflbAqzi3MlNCP2JTkDJyAqsbZIcrJaIHDdAUxPPtsG+UgBV4C8PcG4IEr+BiLCqb8SnWz7khyBH8NLt8D9di0diH79E5TuHF2eWGILITX6Lrr7EPi8ACHMQf6NzGcTnOW7VW4x30vc94HP8ndu5JdD5f8TQGWpbfRRgOm47iUsyb7fgCncNbHMB62u4jB/ED+vlDXI95cQhD536A6/BPEjXEbfgc3cZfZQ9miWfDJQzzGsEl+DcSBZGVOIFu53l6Bm1IabMG76Lf4/V5DOcjcRCxcpzHUDluoI0pLXbhK3RsX3djKzoKEtiL79B9pnEjdou/vEfAMT0iHpl26CqIbMIn6H6GMlwneO5fwzCHy+g10i5dBxFPK08v9/2O5zDJdWMVshq5v9XJKpWUVIKIEz+L39AxbqOFoRX9+Abdxz7Ri52QWpCAJdnS7DjPcCv+i1No5XNbO7adu1NSDyI2y0foWDbRA1iPfxBcRz+38l1AK2E3ZBJEvI3xdiZMdggX4gZ8jL7v3at3sWmQWZCAX/AFHfc++keByz5HbMG0yDyI+Ajgo0AY3ye6NBuo5BJEfDgbw5OYxS1NbkGyJgYpGjFI0YhBika1g+wvocPYFKTM/g5yswIexUgkEonkTa32Cy2Ktxfk5g38AAAAAElFTkSuQmCC">      </div>                      
+                                <div class="title">
+                                        <b>EMAIL</b>
+                                    </div>
+                            
+                        <h6>Quisquam tenetur unde vitae minus</h6>
+                        </div>
+                        <div class="box-3">
+                                <div class="anh">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVUSURBVGhD7ZpXqCRFGEavOaJrVkxgwoAZRREVfFAMGBAziIo5KwiKEcEc3hQD6oMPPhh2jZhAMSBiVsScI+aAOZ4zd36pranp6e7pvSvLfnDY7p7q6uquqj/dnZirOVirwSFwHTwKn8IP8A/8Cd/A6zADLoQdYVH4X2hpOAWeAwfclJ/hFtgZ5oEp17JwGfwIpQG24WXYF6bkhXzIkfA1+PC/4bv+cVe4LNeDWSZn4R6IB74KG4N7w3NfKn4bl1/AD9a51ocPIX3Y8aBWhhthHXgL0jZteCg5vgHmh060BcRSeq3/71+wEuQ6FGIQbfgA5oV94Pv+tbthQRhLG8IXYIcPgNPt8WNQ0iUQg2rDtzAN1CYQz74N5oNWck/Ecrod/Cr6AM9PhFxbgf4iBtWWsyHkko6XucILTaV1uhfs4AXQcS0Bv4LLyn2hXL9LwfIQy64Ov4EOUmIJeXwmxIyEtgHba0x290ITxRL6CtaEXWB6/9rj4OwcDbkBqINfeCMILQKfwBG9s7J8Vty7jBfqaDnwBbzRTbdu/zjwRdyU6bW6fA4ul1x7wwKTh0W5Qh4G+7jGC3Wkx/YGB6x2g3QwbTH28qOoFeB6aBJrrQX6F/fh2l6okrGTYYfrUbOrjKVKA6vCNf1ldu08CMX+02c0Ma1Xg/fpXyp1Mtjwvt7ZpK6CGExdjJu2zK75cfQzamuI627wunK//gHOTG4UZtLzYOcH9s4m9SDEQ+uipXNdv5NcE5fFMfBM//wpaBrKx2wODWFWBxu4tPQhERq8CzGQOvwEmkxl3lFqIy/BktBUET2kq2YmmRTZQItlSOLXPByaOjmTpzXADXlp/1rOm6B1bCP3sb7MpK1o6a6F0kO7QLN7Fvg19UklX9AkOHwD7Hez3lkm46d8AF2gE9sARskPafpbR2aV9n1A7yzTx5APYlw0wakXHyZf9HcwTNFfjNL5YP9pXPafolAwLubhz8LTYASbKjWZHmvun4RIynyR42CUTgXbX947y5QOZhz0IakMKo2WjRQ0HNuDOgPinifgYDDuqqPDwPt0kAPS0UTH45C+iJbpRUh/fxsWA32NEYA5T1Ppi+xLZz0gk5r0gW0x3d0c9N75SwSR18hOoHw579sfhlVSvL4KaAG99yIYUJN8ogkGi+Yxpd/kfXgP0uLFnhAywHRp3gEaD5ene9B2J8GA7oToaFx82F1g5GyKauJ1GugIS+1FIxEhTYQ4yj7Sl0zRJw3oAig1boLZ3rng9Jfk4HaAm/ucDmZ9BoMWHRaCcAN7QMiyk/Wu/HmWogakM8obNsWBjSvNr32ls7IwvALps5y9ooxCnd60cROM0RaHcVWalSshf15lphiuvw1dzEYonRWdXmmPhD8qyqp4fkMdDP27mI1QOisltHLDTHRP/qhDK91chVaqMmNroYPAgkNpNo6FkbJykt9Yh12ha0UokvIR1AplnJWSqRuF1ZcuZYwWVcYUPX9tGVab4OedVKF5XBFyGcZX1ayGKSomKdafG+soyDsahXvlETgBLobw1MZceUhfpU3BvtK+DXUMV1rpJkg7GwcTJ2tko+TSzrNV/VuluR0l46QuY7CoXlYpNzbOTOPidUna9Fsh7bwto17EUMRoONq7T/eCzuTMDPOwTah6EYNG84to+xlsC7NE5gl5TbcJFuUccCrPNalpUHg/lCxgp7JAZukmtyp1iT9wmkFq2Ux94zf/TrIfTKmsJPrX3Krsbxj5fzQwdjJQdI/MNlm/taBscbnJ/4TQxziz20G+3Ga7XDKWMa0AngOGLQ7WaofLyDqWEfaqMFdzsCYm/gXpdDAaInFxSwAAAABJRU5ErkJggg==">                            </div>
+                                <div class="title1">
+                                    <b>WEBSITE</b>
+                                </div>
+                                <h6>Quisquam tenetur unde vitae minus</h6>
+                            </div>
+                        </div>
+    </div>
+    <div class="container-fluid end">
+        <div class="container top">
+            <div class="box-5">
+            <input type="text" placeholder="Full Name"/>
+            <input type="text" placeholder="Email"/>
+            <input type="text" placeholder="Phone"/>
+        </div>
+        <div class="box-6"><textarea name="name" id="sdasdas" cols="65" rows="5.5" placeholder="Message"></textarea></div>
+        <button class="btn btn-warning"><i>Sellection Now</i></button>
+        </div>
+    </div>
+         <div class="container-fluid footer">
+            <div id="map"></div></div>
+            <script>
+                    var map,infoWindow;
+                    function initMap() {
+                      map = new google.maps.Map(document.getElementById('map'), {
+                        center: {lat: -34.397, lng: 150.644},
+                        zoom: 8
+                      });
+                    
+                    infoWindow = new google.maps.InfoWindow;
+                    if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(function(position) {
+            var pos = {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude
+            };
+
+            infoWindow.setPosition(pos);
+            infoWindow.setContent('Location found.');
+            infoWindow.open(map);
+            map.setCenter(pos);
+          }, function() {
+            handleLocationError(true, infoWindow, map.getCenter());
+          });
+        } else {
+          // Browser doesn't support Geolocation
+          handleLocationError(false, infoWindow, map.getCenter());
+        }
+      }
+
+      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+                              'Error: The Geolocation service failed.' :
+                              'Error: Your browser doesn\'t support geolocation.');
+        infoWindow.open(map);
+      }
+                  </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqBGVCAu2XPZikSmKLbRR7hMMj4UhyyKI&callback=initMap">
+    </script>
+</body>
+</html>
