@@ -1,0 +1,49 @@
+.container-fluid{
+    padding: 0;
+}
+.search-txt{
+    background-image: url(http://mihaeltomic.com/codepen/input-search/ic_search_black_24px.svg);
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    border-radius: 50px;
+}
+span{
+    margin-left: 10px;
+}
+strong{
+    font-size: 13.87pt;
+}
+.nav-item a{
+    color: black;
+}
+.nav-item a:hover{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+.btn{
+    border:none;
+}
+.btn-outline-primary:hover{
+    background-color:  #67a1cb;
+    border-color:#67a1cb;
+}
+li{
+    margin-left: 10px;
+}
+.collapse ul{
+    margin-left: 172px;
+}
+h6{
+    text-align: center;
+}
+.about{
+    background-image: url("images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.mx a{
+text-decoration: none;
+}
