@@ -1,0 +1,13 @@
+				@font-face {
+					font-family: 'tahoma';
+					src: url('200514070209tahoma.woff2') format('woff2'),
+						url('200514070209tahoma.woff') format('woff');
+					font-display: auto;
+				}
+
+				.tahoma{font-family: 'tahoma' !important;}
+
+						body{
+					font-family: 'tahoma' !important;
+				}
+		

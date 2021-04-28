@@ -1,0 +1,34 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 28 Apr 2021 16:31:46 at http://mikenco.vn/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://mikenco.vn/ -O1 "D:\down\nghia\nghia" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:33:34	Warning: 	Found for https://mikenco.vn/comments/feed/
+16:33:34	Warning: 	File has moved from https://mikenco.vn/comments/feed/ to /comments/feed/?doing_wp_cron=1619602309.1927900314331054687500
+16:34:23	Error: 	"Not Found" (404) at link https://mikenco.vn/xmlrpc.php?rsd (from mikenco.vn/)
+16:52:07	Error: 	"Cancelled by User" (-1) at link mikenco.vn/wp-content/uploads/2021/03/mikencoinrussia.mp4 (from mikenco.vn/)
+16:52:07	Warning: 	Retry after error -4 (Incorrect length (340889 Bytes, 510489 expected)) at link mikenco.vn/wp-content/uploads/2021/01/140034106_2848277102104050_2436975291505481367_n.jpg (from mikenco.vn/)
+16:52:42	Error: 	"Not Found" (404) at link mikenco.vn/POST (from https://connect.facebook.net/en_US/fbevents.js)
+16:52:42	Warning: 	Found for https://mikenco.vn/?p=5
+16:52:42	Warning: 	File has moved from https://mikenco.vn/?p=5 to /?p=5&doing_wp_cron=1619602477.2071139812469482421875
+16:54:53	Warning: 	Moved Permanently for https://mikenco.vn/?p=15097
+16:54:53	Warning: 	File has moved from https://mikenco.vn/?p=15097 to https://mikenco.vn/premium-class/
+16:54:55	Warning: 	Found for https://mikenco.vn/product/teddy-polo-black-suede/
+16:54:55	Warning: 	File has moved from https://mikenco.vn/product/teddy-polo-black-suede/ to /product/teddy-polo-black-suede/?doing_wp_cron=1619602596.5523340702056884765625
+16:56:37	Warning: 	Found for https://mikenco.vn/product/vangogh-ar-technology/
+16:56:37	Warning: 	File has moved from https://mikenco.vn/product/vangogh-ar-technology/ to /product/vangogh-ar-technology/?doing_wp_cron=1619602658.8503339290618896484375
+16:58:40	Warning: 	Found for https://mikenco.vn/product/suede-bomber-jacket-beige/
+16:58:40	Warning: 	File has moved from https://mikenco.vn/product/suede-bomber-jacket-beige/ to /product/suede-bomber-jacket-beige/?doing_wp_cron=1619602718.2559020519256591796875
+17:13:22	Warning: 	Found for https://mikenco.vn/product/dairy-cow-shirt/
+17:13:22	Warning: 	File has moved from https://mikenco.vn/product/dairy-cow-shirt/ to /product/dairy-cow-shirt/?doing_wp_cron=1619602777.8610711097717285156250
+17:13:22	Warning: 	Found for https://mikenco.vn/product/signature-tshirt-2/
+17:13:22	Warning: 	File has moved from https://mikenco.vn/product/signature-tshirt-2/ to /product/signature-tshirt-2/?doing_wp_cron=1619602778.6170229911804199218750
+17:40:21	Error: 	Exit requested by shell or user
+17:40:21	Error: 	Exit requested by shell or user
+* * MIRROR ABORTED! * *
+The current temporary cache is required for any update operation and only contains data downloaded during the present aborted session.
+The former cache might contain more complete information; if you do not want to lose that information, you have to restore it and delete the current cache.
+This can easily be done here by erasing the hts-cache/new.* files]

@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+mikenco.vn	TRUE	/	FALSE	1999999999	wordpress_test_cookie	WP+Cookie+check
+.codepen.io	TRUE	/	FALSE	1999999999	__cfduid	d737c048f6ea2c5d036f838c59dcc0e101619603554
+.codepen.io	TRUE	/	FALSE	1999999999	__cf_bm	06d67f340ab0a2d648b9b89add3f66fa1598a9ec-1619603554-1800-ATnNexjhh7qAUyrdbUAY+tUU0hpYmIH1gQNV9fIACKJX6yEfj/q128lFkWL9w7Q4tI1NpMRT5RK7GPpzCPPF1Ms=
+static.codepen.io	TRUE	/	FALSE	1999999999	SameSite	None
+

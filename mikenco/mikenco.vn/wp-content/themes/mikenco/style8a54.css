@@ -1,0 +1,1863 @@
+/*!
+Theme Name: MIKENCO
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: mikenco
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+MIKENCO is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+/* Sections
+	 ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+	margin: 0;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+/* Grouping content
+	 ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+/* Text-level semantics
+	 ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+	background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+	border-bottom: none;
+	text-decoration: underline;
+	text-decoration: underline dotted;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+	font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+	font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+/* Embedded content
+	 ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+	border-style: none;
+}
+
+/* Forms
+	 ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+	overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+	text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+	padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *		`fieldset` elements in all browsers.
+ */
+legend {
+	box-sizing: border-box;
+	color: inherit;
+	display: table;
+	max-width: 100%;
+	padding: 0;
+	white-space: normal;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+	vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+	overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit;
+}
+
+/* Interactive
+	 ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+	display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+	display: list-item;
+}
+
+/* Misc
+	 ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+	display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+	display: none;
+}
+
+
+
+p {
+	margin-bottom: 1.5em;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 1.5em;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", courier, monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+	font-family: monaco, consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark,
+ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: #ccc #ccc #bbb;
+	border-radius: 3px;
+	background: #e6e6e6;
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1;
+	padding: 0.6em 1em 0.4em;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	border-color: #ccc #bbb #aaa;
+}
+
+button:active,
+button:focus,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus {
+	border-color: #aaa #bbb #bbb;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	color: #666;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 3px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+	color: #111;
+}
+
+select {
+	border: 1px solid #ccc;
+}
+
+textarea {
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+## MIKENCO CSS
+--------------------------------------------------------------*/
+
+@font-face {
+ font-family: Larsseit;
+ src: url(../../../fonts/Larsseit.woff);
+ font-weight: normal;
+ }
+input:focus {
+    outline-offset: 0;
+}
+input:focus {
+    outline: none;
+}
+body {
+	
+  background-color: white;
+  color: #000;
+  font-weight: 400;
+  font-family: Larsseit;
+  margin: 0;
+  font-size: 0px;
+  letter-spacing: 1.5px;
+
+}
+.product-drop{
+ font-size:9px;
+}
+#drop-down{
+	display:none;
+}
+#content{
+	
+	overflow: hidden;
+   min-height: 600px;
+}
+#footer .col-12{
+    background-color: black;
+}
+a {
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5{
+    color:#000;
+}
+.star-rating{
+    display: none;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#logo img {
+    margin: 0 auto;
+    max-width: 100%;
+}
+#menu {
+    top: 30px;
+    left: 25px;
+    width: 11%;
+    z-index: 2;
+    position: fixed;
+}
+ul{
+	padding: 0;
+    list-style-type: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#nav-menu ul li {
+    z-index: 10;
+    font-size: 14px;    
+    text-transform: uppercase;
+}
+#menu-cate{
+    display:none;
+}
+.star-rating{
+	display: none;
+}
+#menu-cate li{
+    margin-bottom: 14px;
+    letter-spacing: 0;
+    font-size: 13px!important;
+    margin-top: 5px;
+}
+#post-14515 h1.entry-title{
+    display: none;
+}
+#nav-menu ul li a {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 13px 0 10px;
+    margin: 0 25px 0 0;
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+.home #nav-menu ul li a{color: #fff!important;}
+body.page .only-mobi{
+    display:none;
+}
+body.page article.page{
+    margin-left:13%;
+}
+body.woocommerce-page article.page{
+    margin-left:13%;
+}
+.homepage{
+	position: relative;
+	display: block;
+	width: 100%;
+    z-index: 1;
+}
+.homepage img{
+	max-width: 100%;
+	width: 100%;
+}
+.btn-homepage{position: absolute;
+    top: 60%;
+    text-align: center;
+    z-index: 10;
+}
+div.btn-homepage a{
+	color: #666;
+    background-color: #FFF;
+    font-size: 13px;
+    padding: 20px 20px;
+    z-index: 10;
+    width: 180px;
+    text-align: center;
+    margin: auto;
+}
+[class*="col-"] {
+  float: left;
+}
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.33%;
+}
+.col-5 {
+	width: 41.66%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.33%;
+}
+.col-8 {
+	width: 66.66%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.33%;
+}
+.col-11 {
+	width: 91.66%;
+}
+.col-12 {
+	width: 100%;
+}
+.row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 75rem;
+    *zoom: 1;
+}
+#social{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.icon-social{
+	float:right;
+	width: 30px;
+	height:auto;
+	margin: 0 15px 0 15px;
+    display: inline-block;;
+}
+.icon-social img{
+	width:100%;
+}
+#footer {
+	padding: 30px 0;
+    background: black;
+}
+p {
+    font-size: 1em;
+    line-height: 1.75em;
+    margin-bottom: 1.25rem;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-bottom: 1.25rem;
+    text-rendering: optimizeLegibility;
+}
+#footer a {
+    color: #ffffff;
+    margin-right: 0;
+}
+#footer p{
+	margin: 0;
+	font-size: 14px;
+}
+#footer .copyright_text {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 5px 0;
+    text-align: right;
+    box-sizing:border-box;
+	color:rgb(165, 167, 181);
+}
+.footer-letf{
+	padding: 25px 0;
+}
+.footer-right{
+	padding: 25px 0;
+}
+#archive-products #nav-menu ul li a {
+    color: black;
+}
+#wrapInner{
+    color: black;
+    margin-left: 13%;
+    position: border-l
+}
+#wrapInner .col-12{
+    margin-bottom: 50px;
+}
+#Collections .section_title {
+    display: block;
+    font-size: 28px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.box-products p{
+    text-transform: uppercase;
+    color: #606060;
+    font-size: 13px;
+}
+.box-products img{
+    width: 100%;
+}
+.img_outer {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    background: transparent;
+}
+.image1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.img_outer:hover .image2 {
+  opacity: 1;
+}
+.single-product-img img{
+    width: 100%;
+}
+.infor-product{
+    position: relative;
+}
+#headerline-mobile h2{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    color: #231f20;
+    margin-bottom: 9px;
+}
+#headerline-mobile p.sizeguild a{
+    display: inline-block;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 1px solid;
+    box-shadow: 0px 2px 2px -2px #000;
+    color: black;
+    font-size: 11px;
+}
+
+#headerline-web h2{
+    padding-left:5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    color: #231f20;
+    margin-bottom: 9px;
+}
+#headerline-web p.sizeguild a{
+    margin-left: 5px;
+    display: inline-block;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 1px solid;
+    box-shadow: 0px 2px 2px -2px #000;
+    color: black;
+    font-size: 11px;
+}
+h2.product-title{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    color: #231f20;
+}
+p.color{
+    font-size: 14px;
+    width: 100%;
+    margin-top: 3px;
+    color: #231f20;
+}
+p.price{
+    font-size: 15px;
+    font-weight: 500;
+    color: #231f20;
+}
+label.size{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 32px;
+}
+label.quantity{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 32px;
+}
+p.decription{
+    color: #515151;
+    font-size: 16px;
+    width: 70%;
+    line-height: 25px;
+    letter-spacing: 0;
+    font-family: myFirstFont;
+}
+p.detail{
+    font-weight: 700;
+    font-size: 14px;
+}
+.inner-detail{
+    display: block;
+    list-style-type: disc!important;
+    padding: 0 40px!important;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.inner-detail li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-size: 14px;
+    font-weight: 300;
+}
+input#quantity{
+    border:  none;
+    padding: 0 15px;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+}
+.lmp_load_more_button{
+    display:none!important;
+}
+select#size{
+    font-size: 16px;
+    border: none;
+    padding: 0 10px 0 20px;
+    background: none;
+    margin: 0 15px 0 10px;
+    height: 20px;
+    text-align: center;
+    -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;       /* Remove default arrow */
+   background: white;   /* Add custom arrow */
+}
+#addtobag{
+    margin: 20px 0 50px 0;
+    background: #231f20;
+    padding: 20px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background: #231f20;
+    border: 0;
+    width: 70%;
+}
+
+#headerline-web p.color{
+    font-size: 14px;
+    width: 100%;
+    margin-top: 3px;
+    padding-left:5px;
+    color: #231f20;
+}
+#headerline-web p.price{
+    font-size: 15px;
+    font-weight: 500;
+    padding-left:5px;
+    color: #231f20;
+}
+#headerline-web label.size{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left:5px;
+    line-height: 32px;
+}
+#headerline-web label.quantity{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 32px;
+    padding-left:5px;
+}
+#headerline-web p.decription{
+    color: #515151;
+    font-size: 16px;
+    width: 70%;
+    line-height: 25px;
+    letter-spacing: 0;
+    padding-left:5px;
+    font-family: myFirstFont;
+}
+#headerline-web p.detail{
+    font-weight: 700;
+    font-size: 14px;
+    padding-left:5px;
+}
+#headerline-web .inner-detail{
+    display: block;
+    list-style-type: disc!important;
+    padding: 0 40px!important;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    padding-left:5px;
+}
+#headerline-web .inner-detail li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left:5px;
+}
+#headerline-web input#quantity{
+    border:  none;
+    padding: 0 15px;
+    height: 25px;
+    text-align: center;
+    padding-left:5px;
+    font-size: 16px;
+}
+#headerline-web select#size{
+    font-size: 16px;
+    border: none;
+    padding: 0 10px;
+    background: none;
+    margin: 0 15px 0 10px;
+    height: 20px;
+    text-align: center;
+    -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;       /* Remove default arrow */
+   background: white;   /* Add custom arrow */
+   padding-left:5px;
+}
+#headerline-web #addtobag{
+    margin: 20px 0 50px 5px;
+    background: #231f20;
+    padding: 20px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background: #231f20;
+    border: 0;
+    width: 50%;
+    padding-left:5px;
+}
+#headerline-mobile {
+    display: none;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 100px;
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+}
+.action{
+  display:block;
+  margin:100px auto;
+  width:100%;
+  text-align:center;
+}
+.action a {
+  display:inline-block;
+  padding:5px 10px; 
+  background:#f30;
+  color:#fff;
+  text-decoration:none;
+}
+.action a:hover{
+  background:#000;
+}
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list, .slick-slider, .slick-track {
+    position: relative;
+    display: block;
+}
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+#feedback .main{
+    margin-right: 13%;
+}
+.slick-dots{
+    display: none!important;
+}
+#feedback h2{
+    font-size: 14px;
+    line-height: 1.3;
+}
+#feedback h2 span{
+    font-size: 13px;
+    color: #9e9fa1;
+    margin-left: 5px;
+}
+.slick-prev.slick-arrow{
+    display: none!important;
+}
+.slick-next.slick-arrow{
+    position: absolute;
+    top: -40px;
+    color: #9e9fa1;
+    font-size: 20px;
+    background: none;
+    border-radius: 50%;
+    padding: 3px 10px 3px 10px;
+    right: 0;
+}
+.slick-next.slick-arrow:focus{
+    outline: none;
+}
+.variations_form.cart{
+    font-size:14px;
+}
+.product_meta{
+    display:none;
+}
+.variations .label{
+    font-size: 14px;
+}
+.reset_variations{
+    display:none!important;
+}
+.woocommerce-Price-amount.amount{
+    display:none;
+}
+.quantity{
+    font-size:14px;
+}
+.screen-reader-text{
+    font-size: 14px;
+    display: block;
+    z-index: 10000;
+    height: 15px;
+    position: relative!important;
+}
+#hamburger{
+    display: none;
+}
+
+#cart{
+    display: block;
+    width: 25px;
+    position: fixed;
+    top: 18px;
+    /* z-index: 26; */
+    right: 15px;
+}
+#cart img{
+    width: 100%;
+}
+#cart span{
+    background: black;
+    font-size: 13px;
+    padding: 4px 10px 2px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -6px;
+    right: -12px;
+    color: #fff;
+}
+#archive-products .only-mobi{
+    display: none;
+}
+.slide-single{
+    background-position: center;
+    height:300px;
+}
+#headerline-mobile{
+    display:none;
+}
+#headerline-web{
+    top:3%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+}
+#secondary{
+	display:none;
+}
+#coupon_code{
+    width:100px!important;
+}
+.cart_totals h2{
+    font-size: 18px;
+}
+.wc-proceed-to-checkout{
+    font-size:14px!important;
+}
+.checkout-button.button{
+    font-size: 14px;
+    background: #000!important;
+    margin-top: 20px!important;
+    margin-bottom: 80px!important;
+}
+.woocommerce-cart-form{
+    padding:15px;
+}
+.cart_totals {
+    padding-right:15px;
+}
+article.page h1{
+    display: block;
+    font-size: 28px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 36px;
+    line-height: 100px;
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+    color:#000;
+    font-size:28px;
+    text-transform: uppercase;
+}
+.cart-subtotal .woocommerce-Price-amount.amount {
+    display: block;
+}
+#shipping_method .woocommerce-Price-amount.amount {
+    display: inline;
+}
+.order-total .woocommerce-Price-amount.amount {
+    display: block;
+}
+h2.woocommerce-loop-product__title{
+    text-transform: uppercase;
+    color: #606060;
+    font-size: 13px!important;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-bottom: 1.25rem!important;
+    text-rendering: optimizeLegibility;
+}
+.woocommerce ul.products li.product .price{
+    text-transform: uppercase;
+    color: #606060;
+    font-size: 13px!important;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-bottom: 1.25rem!important;
+    text-rendering: optimizeLegibility;
+}
+.woocommerce ul.products li.product a{
+    display: block;
+    font-size: 15px;
+    font-weight: 400;;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+.woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product,.woocommerce ul.products.columns-3 li.product, .woocommerce-page ul.products.columns-3 li.product{
+    width: 33.33%;
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+.woocommerce ul.products li.product .button.add_to_cart_button{
+    display: none;
+}
+.woocommerce-notices-wrapper,.woocommerce-result-count{
+    display:none;
+}
+.woocommerce-ordering .orderby{
+    background: white;
+    border: none;
+}
+.woocommerce-ordering .orderby option[value=popularity]{
+    display:none;
+}
+.woocommerce-ordering .orderby option[value=rating]{
+    display:none;
+}
+.woocommerce-ordering .orderby:focus {
+    outline: none;
+}
+.woocommerce-product-rating{
+    display: none;
+}
+.woocommerce ul.products li.product .onsale{
+    display:none;
+}
+.homepage.col-12{
+    background: black;
+}
+body.single-product article.product{
+    margin-left:13%;
+}
+.single-product .only-mobi{
+    display:none;
+}
+.woocommerce ul.products li.product a.button.product_type_variable{
+    display:none!important;
+}
+a,span,p{
+    font-size:13px;
+    line-height: 18px;
+}
+section.related.products,.navigation.post-navigation,div#comments,.entry-footer{
+    display:none;
+}
+.marginbottom10{
+    margin-bottom:10px;
+}
+.woocommerce-Price-currencySymbol{
+    display:none;
+}
+.skip-link{
+    display:none;
+}
+.stock.in-stock{
+    display:none;
+}
+table.variations select{
+    border: none;
+    background: none;
+    width: 50px;
+    margin-left: 20px;
+}
+table.variations select:focus {
+    outline-offset: 0px;
+}
+table.variations option{
+    text-align:center;
+}
+table.variations select:focus {
+    outline: none;
+}
+table.variations select::-ms-expand {
+    display: none;
+}
+.woocommerce-variation-add-to-cart{
+    position: relative;
+}
+select {
+  text-align: center;
+  text-align-last: center;
+  /* webkit*/
+}
+option {
+  text-align: left;
+  /* reset to left*/
+}
+.shop_table{
+    font-size: 14px;
+}
+.woocommerce-cart-form__cart-item.cart_item .woocommerce-Price-amount.amount{
+    display:block;
+}
+.woocommerce-cart-form__cart-item.cart_item .input-text.qty.text{
+    position: relative;
+    top: -10px;
+    border: none;
+    left: 8px;
+    font-size: 14px;
+}
+.single_add_to_cart_button{
+    margin: 20px 0 50px 0px!important;
+    background: #231f20!important;
+    padding: 20px 20px!important;
+    font-size: 12px!important;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    width: 50%;
+    border-radius:0px!important;
+    text-transform: uppercase;
+}
+.quantity-text{
+    position: absolute;
+    top: 165px;
+    left: 131px;
+    font-size: 14px;
+}
+#headerline-mobile{
+    position: relative;
+}
+.input-text.qty.text{
+    position: absolute;
+    top: -20px;
+    border: none;
+    left: 225px;
+    font-size: 14px;
+}
+.woocommerce-product-details__short-description{
+    display: none;
+}
+.woocommerce-order-overview__total.total .woocommerce-Price-amount.amount {
+    display: block;
+}
+.woocommerce-order p{
+    letter-spacing: 0;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+.products .woocommerce-Price-amount.amount {
+    display: block;
+}
+.woocommerce-form-login-toggle, .woocommerce-form-coupon-toggle{
+    display:none;
+}
+.cart_item .woocommerce-Price-amount.amount {
+    display: block;
+}
+.entry-content{
+        padding: 15px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.variations_form{
+    padding-left:5px;
+}
+#billing_postcode_field{
+    display:none!important;
+}
+#order_review{
+    padding: 15px;
+}
+.payment_box{
+    padding: 10px 10px 20px 10px!important;
+}
+.payment_box p{
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+#billing_company_field{
+    display:none;
+}
+#billing_email{
+    font-size: 14px;
+    height: 35px;
+}
+#billing_postcode{
+    display:none!important;
+}
+.woocommerce-account-fields{
+    display:none;
+}
+#billing_first_name,#billing_last_name,#select2-billing_country-container,#billing_address_1,#billing_city,#billing_phone,#billing_country, .select2-selection.select2-selection--single{
+    font-size: 14px;
+    height: 35px;
+}
+#payment{
+    font-size: 14px;
+}
+#place_order{
+    background: black!important;
+    padding: 15px 20px!important;
+}
+.col-1, .col-2{
+    float: left!important;
+    padding:15px;
+    width:45%!important;
+}
+.woocommerce-order{
+    padding:15px;
+}
+.woocommerce-order-details .woocommerce-Price-amount.amount {
+    display: block;
+}
+.woocommerce-customer-details{
+    display:none;
+}
+body.home #nav-menu ul li{
+    color:#fff!important;
+}
+.woocommerce-variation-availability{
+    position: absolute;
+}
+.click-shop{
+    font-size: 16px!important;
+    text-decoration: underline!important;
+}
+.hide{
+	display:none;
+}
+.show{
+     display:block;
+}
+.homepage.hide{
+     display:none!important;
+}
+#store{
+	margin-left:13%
+}
+#store h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 36px;
+    line-height: 100px;
+    color: #000;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+#store img{
+	max-width:100%;
+}
+#content-store{
+	padding-left:15px;
+}
+#store h4{
+	margin-top: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.only-homepage{
+	display: none;
+}
+.home .none-homepage{
+	display: none!important;
+}
+	
+.home .only-homepage{
+	display: block!important;
+}
+#primary.appmikenco{
+	height: -webkit-fill-available;
+    text-align: center;
+    background: url(../../uploads/2020/08/ouael-ben-salah-G5s9urPC_74-unsplash-scaled.jpg);
+    background-size: cover;
+}
+#primary.appmikenco h1{
+	color: #fff;
+    font-size: 30px;
+    margin: 0;
+    text-transform: uppercase;
+	padding-top: 10%;
+	padding-bottom: 3%;
+}
+#primary.appmikenco .btn-app{
+	width: 250px;
+    display: block;
+    position: relative;
+	margin: auto;
+	padding: 15px 0;
+}
+#primary.appmikenco .btn-app img{
+	max-width: 100%;
+}
+#myVideo{
+    width: 101%;
+	margin-left: 50vw;
+  	transform: translate(-50%);
+}
+.product a.button.product_type_simple{
+	display: none;
+}
+.only-mobi{
+	display: none;
+}
+.post-18529{padding: 0 30px 20px;}
+.post-18539{padding: 0 30px 20px;}
+.table-member{margin:0;}
+.table-member td,.table-member th{padding: 10px!important;}
+li.product.outofstock h2{
+	color: red;
+}
+li.product.outofstock span.price{
+	color: red;
+}
+@media only screen and (max-width: 600px) {
+	.table-member td, .table-member th {
+		padding: 3px!important;
+	}
+	.post-18529{
+		padding: 0;
+	}
+	.post-18539{
+		padding: 0;
+	}
+	#myVideo{
+		display: none;
+	}
+	.only-mobi{
+		display: block!important;
+	}
+	#primary.appmikenco h1{
+		font-size: 22px;
+		padding-top: 45%;
+    	padding-bottom: 10%;
+	}
+	#primary.appmikenco .btn-app{
+		width: 180px;
+		padding: 10px 0;
+	}	
+    .col-1, .col-2{
+        width:100%!important;
+    }
+	#store{
+		margin-left:0%
+	}
+    body.page article.page{
+        margin-left:0%;
+    }
+    body.woocommerce-page article.page{
+        margin-left:0%;
+    }
+    .single-product .only-mobi{
+        display:block;
+    }
+    .woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product,.woocommerce ul.products.columns-3 li.product, .woocommerce-page ul.products.columns-3 li.product{
+        width: 50%;
+        margin-right: 0;
+    }
+    th.product-name{
+        width: 70%;
+    }
+    #order_review {
+        padding: 0px;
+    }
+    #menu{
+        text-align: center;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        height: 40px;
+        background: black;
+    }
+	.icon-social{
+		float:none;
+	}
+    #logo {
+        width: 35%;
+        margin: 0 auto;
+        padding-top: 8px;
+    }
+    .dropdown-content{
+        display:none;
+    }
+    .cart_totals{
+        padding: 0px;
+        width: auto!important;
+    }
+    article.page h1{
+        margin-top: 50px;
+    }
+    .col-1, .col-2{
+        padding:0;
+    }
+    #cart {
+        display: block;
+        width: 25px;
+        position: fixed;
+        top: 5px;
+        /* z-index: 26; */
+        right: 15px;
+    }
+    #hamburger{
+        display: block!important;
+        width: 25px;
+        position: fixed;
+        top: 10px;
+        /* z-index: 26; */
+        left: 15px;
+        background: none;
+        border: none;
+        padding: 0;
+        z-index: 100;
+    }
+    #hamburger:focus{
+        outline: none;
+    }
+    #hamburger img{
+        width: 100%;
+    }
+    .show{
+        display:block;
+    }
+    #nav-menu{
+        margin-top: 9px;
+        background: rgba(0, 0, 0, 0.85);
+    }
+    #nav-menu li.home-menu{
+        display: none;
+    }
+    #nav-menu li{
+        padding: 10px 0;
+    }
+    #nav-menu li a{
+        font-size: 16px!important;
+        color: white!important;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .footer-letf{
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .footer-right{
+        padding: 10px 0;
+    }
+    .last-img{
+        display:none;
+    }
+    .woocommerce ul.order_details li{
+        margin-bottom: 20px;
+    }
+    .woocommerce ul.order_details{
+        margin-bottom: 0;
+    }
+    .footer-right .copyright_text{
+        text-align: center!important;
+        padding-bottom: 45px;
+    }
+    .homepage img{
+        /* height: 800px; */
+        width: 890px;
+        /*object-fit: Cover ;*/
+        height: auto;
+        /* left: 0; */
+        max-width: none;
+        float: right;
+    }
+    .woocommerce-cart-form{
+        padding:0;
+    }
+    div.btn-homepage {
+        position: absolute;
+        top: 500px;
+        font-size: 15px;;
+    }
+    .homepage .col-4{
+        width: 100%;
+    }
+    .quantity-text {
+        position: absolute;
+        top: 152px;
+        left: 155px;
+        font-size: 14px;
+    }
+    .alignnone{
+        width: 100%;
+        height: auto;
+    }
+    #menu-cate li {
+        margin-bottom: 0px;
+        letter-spacing: 0;
+        padding: 5px 0!important;
+        font-size: 13px!important;
+        margin-top: 0px; 
+    }
+    #archive-products #menu{
+        background: black;
+        top: 0;
+        padding: 5px 0;
+    }
+    #archive-products #body{
+        margin-top: 65px;
+    }
+    #archive-products #wrapInner{
+        margin-left: 0;
+    }
+    div.btn-homepage button {
+        color: #666;
+        background-color: #FFF;
+        font-size: 12px;
+        padding: 15px 20px;
+        z-index: 1000;
+    }
+    #Collections .col-4{
+        width: 50%;
+        height: 300px;
+    }
+    .woocommerce-order {
+        padding: 0px;
+    }
+    #wrapInner .col-12 {
+        
+    }
+    #logo img {
+        margin: -6px auto;
+        max-width: 140px;
+    }
+    .box-products .product_title{
+        padding-left: 10px;
+    }
+    .box-products .product_price{
+        padding-left: 10px;
+    }
+    .box-products p {
+        text-transform: uppercase;
+        color: #606060;
+        font-size: 11px;
+    }
+    #Collections .section_title {
+        line-height: 50px;
+        padding-top: 30px;
+        margin-bottom: 0;
+    }
+    .non-mobi{
+        display: none;
+    }
+    #footer p{
+    	margin: 0;
+    	font-size: 11px;
+    }
+    .only-mobi{
+        display: block!important;
+    }
+    #feedback .main {
+        margin-right: 4%;
+    }
+    input#addtobag {
+        width: 70%;
+        font-size: 18px;
+        background: #000!important;
+        border: none;
+        border-radius: none;
+    }
+    #archive-products #nav-menu ul li a {
+        color: white;
+    }
+    .slider{
+        padding-left: 15px;
+    }
+    #feedback h2 {
+        padding-left: 15px;
+    }
+    #headerline-web{
+        display:none;
+    }
+    #headerline-mobile {
+        display: block;
+        padding-left: 15px;
+    }
+    body.single-product #wrapInner{
+        margin-left: 0%;
+        margin-top: 60px;
+    }
+} 
